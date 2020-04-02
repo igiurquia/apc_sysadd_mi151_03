@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "title": "Sample Threat Model",
+    "owner": "Igi",
+    "description": "High level system description test"
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Aaron"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Test diagram",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Taps"
+  }
+}
