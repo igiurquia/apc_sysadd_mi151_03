@@ -1,0 +1,25 @@
+{
+  "summary": {
+    "title": "Client login to Metrodirect website",
+    "owner": "Igi",
+    "description": "The user will log in to the Metrobank Direct website using a Linux OS"
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Long"
+      },
+      {
+        "name": "Johnny"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Client-Website",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Taps"
+  }
+}
