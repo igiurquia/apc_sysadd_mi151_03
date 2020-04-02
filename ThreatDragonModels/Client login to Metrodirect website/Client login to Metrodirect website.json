@@ -65,7 +65,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 1"
+                  "text": "Login Process"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -91,7 +91,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 2"
+                  "text": "Web Servlet"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -117,7 +117,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 3"
+                  "text": "Web Pages"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -143,7 +143,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 4"
+                  "text": "Database Files"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -169,12 +169,12 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.45287505156577645,
-                    "offset": 21.91009808608545
+                    "distance": 0.503241001547188,
+                    "offset": -24.899589961382887
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 5",
+                      "text": "Login Request",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -216,7 +216,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 6",
+                      "text": "Login Response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -253,12 +253,12 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.5058632124081525,
-                    "offset": 13.030876386996342
+                    "distance": 0.5205816156189415,
+                    "offset": -26.860442256267753
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 7",
+                      "text": "AuthenticateUser()",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -295,12 +295,12 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.48794815846969836,
-                    "offset": 9.999105672624555
+                    "distance": 0.5320991178774629,
+                    "offset": 20.995019441575323
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 8",
+                      "text": "Authenticate User\nResult",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -337,7 +337,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 9"
+                  "text": "Client Library\nDatabase"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -362,10 +362,13 @@
               "id": "eee58690-e819-4d9a-81e9-024095d1b768",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.5019477967744584,
+                    "offset": 30.795039463125963
+                  },
                   "attrs": {
                     "text": {
-                      "text": "flow 10",
+                      "text": "Pages",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -407,7 +410,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 11",
+                      "text": "Authenticate User\nSQL Query",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -449,7 +452,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 12",
+                      "text": "Authenticate User\nSQL Query Result",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -491,7 +494,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 13",
+                      "text": "Data",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -533,7 +536,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 14",
+                      "text": "Data",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -550,12 +553,54 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 267,
+                "y": 23
+              },
+              "target": {
+                "x": 269,
+                "y": 263
+              },
+              "vertices": [
+                {
+                  "x": 294,
+                  "y": 139
+                }
+              ],
+              "id": "844eff3f-e291-4748-8e13-241d1e19675e",
+              "z": 16,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 961,
+                "y": 228
+              },
+              "target": {
+                "x": 635,
+                "y": 243
+              },
+              "vertices": [
+                {
+                  "x": 786,
+                  "y": 259
+                }
+              ],
+              "id": "7ac87724-ae81-41ee-a9f0-cac6513bb260",
+              "z": 17,
+              "attrs": {}
             }
           ]
         },
         "size": {
           "height": 590,
-          "width": 891.9403686523438
+          "width": 962.0465698242188
         }
       }
     ],
